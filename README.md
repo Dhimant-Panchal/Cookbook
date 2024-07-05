@@ -7,19 +7,18 @@ Dependencies:
 - Bootstrap
 
 Getting Started:
-1. Clone the repository:
+Clone the repository:
    -git clone <repository-url>
    
-2. Navigate to the project directory:
+Navigate to the project directory:
    -cd recipe_website/recipe_website
    
-3. Install dependencies using npm:
+Install dependencies using npm:
    -npm install
 
-Running the Application:
 
 To start the development server:
-npm run dev
+-npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
