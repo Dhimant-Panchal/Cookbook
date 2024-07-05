@@ -8,13 +8,13 @@ Dependencies:
 
 Getting Started:
 1. Clone the repository:
-   git clone <repository-url>
+   -git clone <repository-url>
    
 2. Navigate to the project directory:
-   cd recipe_website/recipe_website
+   -cd recipe_website/recipe_website
    
 3. Install dependencies using npm:
-   npm install
+   -npm install
 
 Running the Application:
 
