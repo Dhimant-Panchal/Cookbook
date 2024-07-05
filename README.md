@@ -11,7 +11,7 @@ Getting Started:
    git clone <repository-url>
    
 2. Navigate to the project directory:
-   cd cookbook-project
+   cd recipe_website/recipe_website
    
 3. Install dependencies using npm:
    npm install
