@@ -1,0 +1,67 @@
+body {
+  background-color: #FFF5E6;
+  font-family: 'Georgia', serif;
+}
+
+.recipe-card {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+}
+
+.main-title {
+  font-family: 'Brush Script MT', cursive;
+  color: #8B4513;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.featured-badge {
+  background-color: #FF6B6B !important;
+}
+
+.btn-view-recipe {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+}
+
+.btn-view-recipe:hover {
+  background-color: #45a049;
+}
+
+.latest-recipes-title {
+  color: #8B4513;
+  border-bottom: 2px dashed #8B4513;
+  padding-bottom: 10px;
+}
+
+.breadcrumb {
+  background-color: #FFF5E6;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  color: #8B4513;
+}
+
+.breadcrumb-item.active {
+  color: #8B4513;
+  font-weight: bold;
+}
+
+.breadcrumb-link {
+  color: #4CAF50;
+}
+
+.breadcrumb-link:hover {
+  color: #45a049;
+  text-decoration: underline !important;
+}
